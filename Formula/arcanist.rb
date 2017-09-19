@@ -11,7 +11,7 @@ class Arcanist < Formula
   end
 
   resource "geekie-extensions" do
-    head "https://github.com/geekie/arc-extensions.git"
+    url "https://github.com/geekie/arc-extensions.git"
   end
 
   def install
