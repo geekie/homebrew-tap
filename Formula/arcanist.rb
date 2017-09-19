@@ -10,11 +10,19 @@ class Arcanist < Formula
       :revision => "ceeaf5ebea1c57c554eff0a2f131a21072f2948d"
   end
 
+  resource "geekie-extensions" do
+    head "https://github.com/geekie/arc-extensions.git"
+  end
+
   def install
     libexec.install Dir["*"]
 
     resource("libphutil").stage do
       (buildpath/"libphutil").install Dir["*"]
+    end
+
+    resource("geekie-extensions").stage do
+      (buildpath/"geekie-extensions").install Dir["*"]
     end
 
     prefix.install Dir["*"]
