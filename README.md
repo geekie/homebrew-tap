@@ -6,7 +6,7 @@ This repository contains some tools we use for development at Geekie that can be
 To install a package:
 
 ```
-brew tap geekie/tap
+brew tap geekie/tools
 brew install arcanist
 ```
 
