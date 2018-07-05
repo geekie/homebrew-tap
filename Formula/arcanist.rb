@@ -17,10 +17,6 @@ class Arcanist < Formula
       (buildpath/"libphutil").install Dir["*"]
     end
 
-    resource("geekie-extensions").stage do
-      (buildpath/"geekie-extensions").install Dir["*"]
-    end
-
     prefix.install Dir["*"]
 
     bin.install_symlink libexec/"bin/arc" => "arc"
