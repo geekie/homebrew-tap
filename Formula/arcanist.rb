@@ -7,7 +7,7 @@ class Arcanist < Formula
 
   resource "libphutil" do
     url "https://github.com/phacility/libphutil.git",
-      :revision => "b4ba68b9757518525ace92f87de82238041b1882"
+      :revision => "47c97f0c48429a25f35ca9b515c7b9e15889d77f"
   end
 
   def install
