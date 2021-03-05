@@ -3,7 +3,7 @@ class Arcanist < Formula
   homepage "https://secure.phabricator.com/book/phabricator/article/arcanist/"
   url "https://github.com/phacility/arcanist.git",
     :revision => "8f7ddcdf995fe33fb2810aa7739b16f9b92cb44e"
-  version "2021-03-1"
+  version "20210301"
 
   def install
     libexec.install Dir["*"]
